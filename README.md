@@ -1,16 +1,84 @@
-# React + Vite
+# 🎆 Fireworks Profile Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **React + Tailwind CSS** profile card with animated emoji fireworks on button click.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## React Compiler
+<img width="1283" height="515" alt="github" src="https://github.com/user-attachments/assets/eda49794-e559-4c8c-8ed1-496fe59de089" />
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Animated emoji fireworks effect
+* Smooth hover animations
+* Gradient border profile image
+* Fully responsive
+* Clean, modern UI
+* Built with React + Tailwind CSS
+* Simple and reusable component
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+src/
+ └── components/
+       └── ProfileCard.jsx   ← main component
+public/
+ └── dp.jpg                  ← your profile image
+```
+
+
+
+## 🚀 How It Works
+
+1. Clicking the **Follow me❤️** button triggers a function.
+2. The function generates randomly placed and rotated emoji “particles”.
+3. The particles appear briefly and disappear automatically after 1.2 seconds.
+4. The entire card slightly scales on hover for a smooth modern feel.
+
+
+
+## 🛠 Usage
+
+Import and render the component:
+
+```jsx
+import ProfileCard from "./components/ProfileCard";
+
+function App() {
+  return <ProfileCard />;
+}
+
+export default App;
+```
+
+Make sure Tailwind CSS is installed and configured in your project.
+
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## 🧪 Technologies Used
+
+* React (Vite)
+* Tailwind CSS
+* JavaScript (ES6)
+* CSS animations
+
+
+## 🎨 Customization
+
+You can easily customize:
+
+* Name
+* Job title
+* Profile photo
+* Button text
+* Firework emojis
+* Card colors and gradients
+
+
